@@ -395,3 +395,54 @@ hr {
     }
 
 }
+
+@media screen and (max-width: 900px){
+
+    .fofocas {
+
+        background-size: 130vw;
+        background-position-y: 12vh;
+        background-position-x: -16vw;
+        height: 100%;
+
+    }
+    .titulo_fofocas {
+
+        width: 50%;
+
+    }
+
+    .conteudo_fofocas {
+
+        width: 30%;
+        padding: 0.3vw;
+
+    }
+    .conteudo_fofocas p{
+
+        font-size: 12px;
+
+    }
+    .conteudo_fofocas h3{
+
+        font-size: 15px;
+
+    }
+    .titulo_fofocas h2{
+
+        font-size: 24px;
+
+    }
+    .historia_texto{
+
+        justify-content: end;
+
+    }
+    .historia_box{
+
+        width: 70%;
+        margin-right: 5vw;
+
+    }
+
+}
