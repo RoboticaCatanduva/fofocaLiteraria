@@ -1,0 +1,282 @@
+body{
+
+    margin: 0;
+    font-family: 'Montserat', sans-serif;
+    font-size: 20px;
+    color: white;
+    background-color: #f3be2a;
+
+}
+.header img{
+
+    width: 100%;
+
+}
+
+.menu_header{
+
+    display: flex;
+    background-color: #fa5613;
+
+}
+a{
+
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+
+}
+.link_header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:0.5em 0 0.5em 0;
+    height: 100%;
+    width: 25%;
+
+}
+.link_header:hover{
+
+    background-color: #ff733b;
+
+}
+.fofocas{
+    height: 780px;
+    background-image: url('img/funfo_fofocas.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position:relative;
+    background-position-x: center;
+    background-position-y: 5vh;
+
+}
+.titulo_fofocas{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    background-color: #fa5613;
+    margin: 3em 2em 3em 0;
+    padding: 1.5em 2em 1.5em 2em;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+
+}
+.box_titulo_fofocas{
+
+    display: flex;
+    justify-content: center;
+
+}
+.box_fofocas{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2em 0 2em;
+
+}
+.titulo_fofocas h1{
+
+    margin: 0.01em;
+    font-size: 40px;
+
+}
+.titulo_fofocas h2{
+
+    margin: 0;
+
+}
+.conteudo_fofocas{
+
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    justify-content: center;
+    background-color: #fa5613;
+    margin: 3em 2em 3em 0;
+    padding: 1.5em 2em 1.5em 2em;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+
+}
+.conteudo_fofocas p{
+
+    font-size: 15px;
+
+}
+.conteudo_fofocas h3{
+
+    font-size: 20px;
+
+}
+
+.livros{
+
+    background-color: #fa5613;
+    display: flex;
+    justify-content: space-between;
+
+}
+.box_livros{
+
+    background-color: #f3be2a;
+    width: 49%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.livros_info{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.livros_info h1{
+
+    font-size: 50px;
+
+}
+.livros_info_box{
+
+    background-color: #fa5613;
+    border-radius: 15px;
+    width: 60%;
+    text-align: center;
+    padding: 0.3em;
+    margin-bottom: 1em;
+
+}
+.livros_info_box p{
+
+    line-height: 1.5em;
+    font-size: 16px;
+
+}
+.livros_info img{
+
+    width: 10vw;
+
+}
+.livros_visual{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2em 0 0;
+}
+.livros_visual h1{
+
+    font-size: 50px;
+
+}
+.livros_visual img{
+
+    width: 20vw;
+
+}
+.resumo{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('img/resumo_fundo.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position:relative;
+    background-position-x: -5.5vw;
+    background-position-y: center;
+
+}
+.resumo_texto{
+    width: 40%;
+    padding: 1vw;
+}
+.resumo_texto p{
+
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: justify;
+
+}
+.nossa_historia{
+
+    display: flex;
+    background-image: url('img/nossahistoria_fundo.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position:relative;
+    background-position-x: center;
+    background-position-y: start;
+
+}
+.historia_imagens{
+
+    width: 50%;
+
+}
+.historia_imagens_cima{
+
+    display: flex;
+    justify-content: start;
+
+}
+.historia_imagens_baixo{
+
+    display: flex;
+    justify-content: end;
+
+}
+.historia_imagens_cima img{
+
+    width: 25%;
+    margin: 10vw 5vw 0 3vw;
+
+}
+.historia_imagens_baixo img{
+
+    width: 25%;
+    margin: 0 5vw 0 3vw;
+
+}
+.historia_texto{
+
+    display: flex;
+    width: 50%;
+    align-items: center;
+
+}
+.historia_box{
+
+    width: 90%;
+    background-color: #fa5613;
+    border-radius: 20px;
+    padding: 0vw 1vw;
+
+}
+.historia_box p{
+
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.5em;
+    text-align: justify;
+
+}
+hr{
+
+    width: 80%;
+    height: 1px;
+    border: 0px;
+    border-top: 1px solid #fa5613;
+    background-color: #dddddd;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+
+}
