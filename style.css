@@ -87,6 +87,12 @@ a {
 
 }
 
+.box_fofocas img {
+
+    display: none;
+
+}
+
 .titulo_fofocas h1 {
 
     margin: 0.01em;
@@ -118,6 +124,7 @@ a {
 
 .conteudo_fofocas p {
 
+    display: block;
     font-size: 15px;
 
 }
@@ -142,6 +149,12 @@ a {
     width: 49%;
     display: flex;
     justify-content: space-between;
+
+}
+
+.livros_divisor {
+
+    display: none;
 
 }
 
@@ -218,7 +231,13 @@ a {
 
 }
 
-.resumo_div{
+.resumo_1 {
+
+    display: block;
+
+}
+
+.resumo_div {
 
     display: none;
 
@@ -247,6 +266,11 @@ a {
     background-position: relative;
     background-position-x: center;
     background-position-y: start;
+
+}
+.hist_img{
+
+    display: none;
 
 }
 
@@ -355,27 +379,32 @@ hr {
         background-position-y: 5vh;
 
     }
-    .livros_info_box p{
+
+    .livros_info_box p {
 
         font-size: 12px;
         line-height: 1vh;
 
     }
-    .livros_info h1{
+
+    .livros_info h1 {
 
         font-size: 30px;
 
     }
-    .livros_visual h1{
+
+    .livros_visual h1 {
 
         font-size: 40px;
 
     }
-    .resumo{
+
+    .resumo {
         background-image: none;
         flex-direction: column;
     }
-    .resumo_div{
+
+    .resumo_div {
         display: block;
         width: 40%;
         background-color: #fa5613;
@@ -383,12 +412,13 @@ hr {
         text-align: center;
         padding: 1vh 0;
     }
-    .resumo_div img{
+
+    .resumo_div img {
 
         width: 60%
-
     }
-    .resumo_texto{
+
+    .resumo_texto {
 
         width: 80%;
 
@@ -396,7 +426,7 @@ hr {
 
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 900px) {
 
     .fofocas {
 
@@ -406,6 +436,7 @@ hr {
         height: 100%;
 
     }
+
     .titulo_fofocas {
 
         width: 50%;
@@ -418,31 +449,289 @@ hr {
         padding: 0.3vw;
 
     }
-    .conteudo_fofocas p{
+
+    .conteudo_fofocas p {
 
         font-size: 12px;
 
     }
-    .conteudo_fofocas h3{
+
+    .conteudo_fofocas h3 {
 
         font-size: 15px;
 
     }
-    .titulo_fofocas h2{
+
+    .titulo_fofocas h2 {
 
         font-size: 24px;
 
     }
-    .historia_texto{
+
+    .historia_texto {
 
         justify-content: end;
 
     }
-    .historia_box{
+
+    .historia_box {
 
         width: 70%;
         margin-right: 5vw;
 
     }
+
+}
+
+@media screen and (max-width: 600px) {
+    body{
+
+        margin-bottom: 50vw;
+
+    }
+    .menu_header {
+
+        align-items: center;
+
+    }
+
+    .fofocas {
+        background-image: none;
+    }
+
+    .box_fofocas img {
+
+        display: block;
+        width: 60%;
+
+    }
+
+    .box_titulo_fofocas {
+
+        padding: 0;
+        margin: 0;
+
+    }
+
+    .titulo_fofocas {
+
+        margin: 10vw 0;
+
+    }
+
+    .titulo_fofocas h2 {
+
+        font-size: 15px;
+
+    }
+
+    .box_fofocas {
+
+        padding: 0;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .conteudo_fofocas {
+
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        margin: 5vw 10vw;
+
+    }
+
+    .livros {
+
+        background: #f3be2a;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+
+    }
+
+    .box_livros {
+
+        width: 100%;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .livros_info {
+
+        width: 60vw;
+
+    }
+
+    .livros_info img {
+
+        width: 50%;
+        margin: 3vw 0;
+
+    }
+
+    .livros_visual {
+
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .livros_visual img {
+
+        width: 30vw;
+
+    }
+
+    .livros_visual h1 {
+
+        font-size: 18px;
+
+    }
+
+    .livros_info_box p {
+
+        font-size: 10px;
+        line-height: 4vw;
+
+    }
+
+    .livros_divisor {
+
+        display: block;
+        width: 100%;
+        height: 5vw;
+        background: #fa5613;
+
+    }
+
+    .resumo_1 {
+
+        display: none;
+
+    }
+    .resumo_2{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .resumo_texto_1 {
+
+        display: none;
+        width: 90%;
+        padding: 1vw;
+    }
+    .resumo_texto_2 {
+
+        display: none;
+        width: 90%;
+        padding: 1vw;
+    }
+
+    .resumo_texto_1 p {
+
+        color: black;
+        font-size: 15px;
+        font-weight: 700;
+        text-align: justify;
+
+    }
+    .resumo_texto_2 p {
+
+        color: black;
+        font-size: 15px;
+        font-weight: 700;
+        text-align: justify;
+
+    }
+
+    .livro_check {
+
+        appearance: none;
+
+    }
+    .livro_check2 {
+
+        appearance: none;
+
+    }
+
+    .livro_check:checked~.resumo_texto_1 {
+
+        display: block;
+
+    }
+    .livro_check2:checked~.resumo_texto_2 {
+
+        display: block;
+
+    }
+    .livro_check_label{
+
+        background: #fa5613;
+        padding: 3vw;
+        margin-bottom: 5vw;
+        border-radius: 20px;
+
+    }
+    .livro_check_label2{
+
+        background: #fa5613;
+        padding: 3vw;
+        margin-bottom: 5vw;
+        border-radius: 20px;
+
+    }
+    .resumo_div{
+
+        width:80%;
+        margin-bottom: 5vw;
+
+    }
+    .nossa_historia{
+
+        flex-direction: column;
+        align-items: center;
+        background-image: none;
+        padding: 0;
+        margin: 0;
+
+    }
+    .historia_imagens_baixo img{
+
+        width: 50%;
+
+    }
+    .historia_imagens_cima img{
+
+        width: 50%;
+
+    }
+    .historia_imagens{
+
+        margin-bottom: 10vw;
+
+    }
+    .historia_texto{
+
+        width: 100%;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+
+    }
+    .hist_img{
+
+        display: block;
+        width: 100%;
+
+    }
+
 
 }
