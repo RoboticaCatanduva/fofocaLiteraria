@@ -220,6 +220,7 @@ a {
 .resumo {
 
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     background-image: url('img/resumo_fundo.png');
@@ -233,7 +234,14 @@ a {
 
 .resumo_1 {
 
-    display: block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.resumo_2{
+
+    display: none;
 
 }
 
@@ -403,6 +411,11 @@ hr {
         background-image: none;
         flex-direction: column;
     }
+    .resumo_1{
+
+        flex-direction: column;
+
+    }
 
     .resumo_div {
         display: block;
@@ -422,6 +435,11 @@ hr {
 
         width: 80%;
 
+    }
+    .hist_img{
+
+        display: none;
+    
     }
 
 }
